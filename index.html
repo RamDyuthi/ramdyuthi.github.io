@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ram Dyuthi Sristi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Tailwind via CDN for quick styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 leading-relaxed scroll-smooth">
+
+<!-- ───────── Header / Nav ───────── -->
+<header class="bg-white shadow sticky top-0 z-20">
+  <nav class="mx-auto max-w-5xl flex items-center justify-between p-4">
+    <h1 class="font-semibold text-lg">Ram Dyuthi Sristi</h1>
+    <ul class="flex gap-4 text-sm">
+      <li><a href="#about" class="hover:text-amber-600">About</a></li>
+      <li><a href="#research" class="hover:text-amber-600">Research</a></li>
+      <li><a href="#publications" class="hover:text-amber-600">Publications</a></li>
+      <li><a href="#teaching" class="hover:text-amber-600">Teaching & Outreach</a></li>
+      <li><a href="#awards" class="hover:text-amber-600">Awards</a></li>
+      <li><a href="#contact" class="hover:text-amber-600">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ───────── Hero ───────── -->
+<section id="hero" class="py-20 text-center bg-gradient-to-b from-gray-100 to-gray-50">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+    Interpretable&nbsp;ML&nbsp;×&nbsp;Neuroscience
+  </h2>
+  <p class="max-w-xl mx-auto text-lg">
+    Turning multimodal brain data into actionable insight—one algorithm at a time.
+  </p>
+</section>
+
+<!-- ───────── About ───────── -->
+<section id="about" class="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row gap-8">
+  <img src="images/headshot.jpg" alt="Ram Dyuthi Sristi headshot"
+       class="w-48 h-48 object-cover rounded-full shadow-md mx-auto md:mx-0">
+  <div>
+    <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+    <p>
+      I am a final‑year Ph.D. candidate in Electrical Engineering at UC San Diego, advised by
+      Prof.&nbsp;Gal Mishne, designing <strong>interpretable machine‑learning frameworks</strong> that weave
+      multimodal biomedical signals into detailed maps of brain connectivity.
+      My work has appeared in NeurIPS and ICML and builds on
+      deep generative models—Transformers, VAEs, and coupled autoencoders—combined with rigorous statistics.
+      Earlier, I graduated top of my class at IIT Hyderabad, earning the Institute Silver Medal and a
+      Research Excellence Award for my EMBC’17 machine‑learning wearable‑sensing study.
+      I mentor students and co‑lead brain‑computer‑interface workshops, aiming to transform
+      algorithmic advances into real‑world biomedical impact.
+    </p>
+  </div>
+</section>
+
+<!-- ───────── Research Highlights ───────── -->
+<section id="research" class="bg-white py-16">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-2xl font-semibold mb-8">Research Highlights</h3>
+
+    <!-- Grid -->
+    <div class="grid sm:grid-cols-2 gap-8">
+      <!-- Project card -->
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h4 class="font-semibold">Conditional Stochastic Gates</h4>
+        <p class="text-sm mb-2 italic">Context‑aware feature selection</p>
+        <p class="text-sm">c‑STG learns which input features matter <em>for each context</em>,
+          boosting accuracy and interpretability across domains.</p>
+        <a href="https://openreview.net/forum?id=E6Nm3x7acv"
+           class="inline-block mt-2 text-amber-700 hover:underline text-sm">Paper ↗</a>
+      </div>
+
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h4 class="font-semibold">Complementary Cortical &amp; Thalamic Inputs</h4>
+        <p class="text-sm mb-2 italic">Dissecting cell‑type‑specific striatal dynamics</p>
+        <p class="text-sm">Large‑scale recordings reveal how cortex and thalamus jointly
+           shape direct‑ and indirect‑pathway MSNs during skilled locomotion.</p>
+        <a href="https://www.biorxiv.org/content/10.1101/2025.07.11.664473v2"
+           class="inline-block mt-2 text-amber-700 hover:underline text-sm">Pre‑print ↗</a>
+      </div>
+
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h4 class="font-semibold">Differential Spectral Clustering (DiSC)</h4>
+        <p class="text-sm mb-2 italic">Finding feature clusters that separate conditions</p>
+        <p class="text-sm">DiSC spots groups of pixels/genes/voxels whose relationships
+           shift between states, outperforming baselines on imaging and genomics.</p>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/a84953147312ea2e8b020e53a267321b-Paper-Conference.pdf"
+           class="inline-block mt-2 text-amber-700 hover:underline text-sm">Paper ↗</a>
+      </div>
+
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h4 class="font-semibold">Coupled Transformer Autoencoder</h4>
+        <p class="text-sm mb-2 italic">Disentangling shared vs. private neural dynamics</p>
+        <p class="text-sm">CTAE captures long‑range, non‑linear interactions across brain
+           regions with explicit shared/private latent spaces.</p>
+        <span class="inline-block mt-2 text-gray-500 text-sm">Under review (NeurIPS 2025)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Publications ───────── -->
+<section id="publications" class="max-w-5xl mx-auto px-6 py-16">
+  <h3 class="text-2xl font-semibold mb-4">Publications</h3>
+  <p>See the complete list on
+     <a href="https://scholar.google.com/citations?user=yKZAiCYAAAAJ&hl=en"
+        class="text-amber-700 hover:underline">Google Scholar ↗</a>.
+     (Automatic import coming soon!)</p>
+</section>
+
+<!-- ───────── Teaching & Outreach ───────── -->
+<section id="teaching" class="bg-white py-16">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-2xl font-semibold mb-4">Teaching & Outreach</h3>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Co‑organised Brain‑Computer Interface workshops (UCSD 2023 · UMich 2024, ≈40 participants each).</li>
+      <li>Mentor in Simons Collaboration on the Global Brain SURFiN program (2022‑23, 2024‑25).</li>
+      <li>Teaching Assistant — DSE 220: Machine Learning · CSE 151A: Intro to Machine Learning.</li>
+      <li>Guest talk at FinDS (UCSD): “Seeing data clearly – the art of visualisation” for high‑schoolers.</li>
+      <li>Reviewer: NeurIPS, ICML, ICLR (2024–2025).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Awards ───────── -->
+<section id="awards" class="max-w-5xl mx-auto px-6 py-16">
+  <h3 class="text-2xl font-semibold mb-4">Awards</h3>
+  <ul class="list-disc pl-6 space-y-2">
+    <li>Institute Silver Medal – IIT Hyderabad (Top CGPA).</li>
+    <li>Research Excellence Award – IIT Hyderabad.</li>
+    <li>Selected participant – CCN Theoretical Neuroscience Workshop 2025.</li>
+    <!-- Add more from CV as needed -->
+  </ul>
+</section>
+
+<!-- ───────── Contact ───────── -->
+<section id="contact" class="bg-white py-16">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h3 class="text-2xl font-semibold mb-4">Get in Touch</h3>
+    <p>Email: <a href="mailto:rsristi@ucsd.edu" class="text-amber-700 hover:underline">rsristi@ucsd.edu</a></p>
+    <p class="mt-2">
+      <a href="https://scholar.google.com/citations?user=yKZAiCYAAAAJ&hl=en"
+         class="text-sm text-gray-600 hover:text-amber-700 underline">Google Scholar</a>
+    </p>
+  </div>
+</section>
+
+<!-- ───────── Footer ───────── -->
+<footer class="py-6 text-center text-sm text-gray-500">
+  © <script>document.write(new Date().getFullYear())</script> Ram Dyuthi Sristi
+</footer>
+
+</body>
+</html>
